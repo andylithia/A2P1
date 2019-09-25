@@ -1,0 +1,6 @@
+Each directory corresponds to a specific instance of a model. The second part of a directory name is the serial number of that instance, in the case that the label is partialy damaged, '.' is used as a space filler.
+In a directory, the files abide by the following naming convention:
+	Model + [Chip Label] + [Chip Type] + [Chip Position or Designator] .BIN
+	[] means this section can be omitted
+	Sections are connected by dashes.
+	
