@@ -1,0 +1,32 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\andylithia\Documents\GitHub\A2P1\FMC-98\Capture\sFMC-98_s3f.PcbDoc
+Date     : 2019-11-10
+Time     : 15:11:09
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+   Violation between Clearance Constraint: (5.905mil < 6mil) Between Region (0 hole(s)) Top Layer And Track (-1441mil,-535.581mil)(-1395.016mil,-489.597mil) on Top Layer 
+   Violation between Clearance Constraint: (5.905mil < 6mil) Between Region (0 hole(s)) Top Layer And Track (-1441mil,-545mil)(-1441mil,-535.581mil) on Top Layer 
+Rule Violations :2
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=4mil) (Max=50mil) (Preferred=8mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 2
+Waived Violations : 0
+Time Elapsed        : 00:00:00

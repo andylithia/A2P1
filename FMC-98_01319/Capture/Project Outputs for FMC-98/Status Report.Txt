@@ -1,0 +1,10 @@
+Output: Bill of Materials
+Type  : BOM
+From  : Schematic Document [sFMC98_v3.SchDoc]
+   Generated File[Bill of Materials-sFMC98_v3.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 15:31:45 On 2019-11-10

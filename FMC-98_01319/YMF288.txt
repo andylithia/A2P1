@@ -1,0 +1,72 @@
+Pinout:
+(Ref: https://sites.google.com/site/undocumentedsoundchips/yamaha/ymf288)
+
+  YMF288-S QFP64                                         YMF288-M SOP28
+  +----+--------+-----+--------------------------+----+  +----+-------+-----+
+  | No.| Name   | DIR | Function                 | No'|  | No.| Name  | DIR |
+  +----+--------+-----+--------------------------+----+  +----+-------+-----+
+  | 1  | .      |     |                          |    |  | 1  | VSS   |     |
+  | 2  | .      |     |                          |    |  | 2  | D0    | I/O |
+  | 3  | D3     | I/O | Data Bus                 | 5  |  | 3  | D1    | "   |
+  | 4  | .      |     |                          |    |  | 4  | D2    | "   |
+  | 5  | D4     | I/O | Data Bus                 | 6  |  | 5  | D3    | "   |
+  | 6  | .      |     |                          |    |  | 6  | D4    | "   |
+  | 7  | D5     | I/O | Data Bus                 | 7  |  | 7  | D5    | "   |
+  | 8  | .      |     |                          |    |  | 8  | D6    | "   |
+  | 9  | .      |     |                          |    |  | 9  | D7    | "   |
+  | 10 | D6     | I/O | Data Bus                 | 8  |  | 10 | .     |     |
+  | 11 | .      |     |                          |    |  | 11 | /IC   | I   |
+  | 12 | D7     | I/O | Data Bus                 | 9  |  | 12 | 5V/3V | I   |
+  | 13 | .      |     |                          |    |  | 13 | .     |     |
+  | 14 | /TEST1 | I   | Test Signal Input        | X  |  | 14 | VSS   |     |
+  | 15 | .      |     |                          |    |  | 15 | /IRQ  | O   |
+  | 16 | .      |     |                          |    |  | 16 | VSS   |     |
+  | 17 | .      |     |                          |    |  | 17 | /CS   | I   |
+  | 18 | .      |     |                          |    |  | 18 | /WR   | I   |
+  | 19 | .      |     |                          |    |  | 19 | /RD   | I   |
+  | 20 | /IC    | I   | Initial Clear            | 11 |  | 20 | A0    | I   |
+  | 21 | 5V/3V  | I   | DC Voltage Select        | 12 |  | 21 | A1    | I   |
+  | 22 | /TEST2 | I   | Test Signal Input        | X  |  | 22 | VDD   |     |
+  | 23 | .      |     |                          |    |  | 23 | BCO   | O   |
+  | 24 | VSS    |     | Ground                   | -  |  | 24 | SO    | O   |
+  | 25 | /IRQ   | O   | Interrupt Request Data   | 15 |  | 25 | WCO   | O   |
+  | 26 | /COM   | I   |                          | X  |  | 26 | LRO   | O   |
+  | 27 | /CS    | I   | Chip Select              | 17 |  | 27 | VDD   |     |
+  | 28 | /WR    | I   | Write Enable Signal      |    |  | 28 | MCLK  | I   |
+  | 29 | .      |     |                          |    |  +----+-------+-----+
+  | 30 | .      |     |                          |    |
+  | 31 | .      |     |                          |    |
+  | 32 | .      |     |                          |    |
+  | 33 | .      |     |                          |    |
+  | 34 | .      |     |                          |    |
+  | 35 | /RD    | I   | Read Enable Signal       | 19 |
+  | 36 | .      |     |                          |    |
+  | 37 | A0     | I   |                          | 20 |
+  | 38 | .      |     |                          |    |
+  | 39 | A1     | I   |                          | 21 |
+  | 40 | .      |     |                          |    |
+  | 41 | .      |     |                          |    |
+  | 42 | /STBY  | I   | Stand by mode Input      | X  |
+  | 43 | .      |     |                          |    |
+  | 44 | BCO    | O   | DAC Bit Clock Output     | 23 |
+  | 45 | .      |     |                          |    |
+  | 46 | SO     | O   | DAC Serial Data Output   | 24 |
+  | 47 | .      |     |                          |    |
+  | 48 | .      |     |                          |    |
+  | 49 | .      |     |                          |    |
+  | 50 | .      |     |                          |    |
+  | 51 | .      |     |                          |    |
+  | 52 | WCO    | O   | DAC Word Clock Output    | 25 |
+  | 53 | .      |     |                          |    |
+  | 54 | LRO    | O   | DAC Pan pot Clock Output | 26 |
+  | 55 | VDD    |     | DC Power Supply          | -  |
+  | 56 | MCLK   | I   | Master Clock Input       | 28 |
+  | 57 | VSS    |     | Ground                   | -  |
+  | 58 | .      |     |                          |    |
+  | 59 | D0     | I/O | Data Bus                 | 2  |
+  | 60 | D1     | I/O | Data Bus                 | 3  |
+  | 61 | D2     | I/O | Data Bus                 | 4  |
+  | 62 | .      |     |                          |    |
+  | 63 | .      |     |                          |    |
+  | 64 | .      |     |                          |    |
+  +----+--------+-----+--------------------------+----+
